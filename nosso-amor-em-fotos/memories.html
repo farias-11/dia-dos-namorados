@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mural de Momentos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="music-player.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-icons">
+                <div class="heart-icon">♥</div>
+                <div class="sparkle-icon">✨</div>
+            </div>
+            <h1 class="hero-title">Nossas Histórias</h1>
+            <p class="hero-description">
+                Uma coleção especial dos nossos momentos mais preciosos juntos. 
+            </p>
+            <div class="hero-counter">
+                <span class="heart-small">♥</span>
+                <span>6 momentos especiais das nossas vidas
+                </span>
+                <span class="heart-small">♥</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <main class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa História de Amor</h2>
+                <p>Clica no card para aparecer o que cada um tem</p>
+            </div>
+
+            <div class="memories-grid">
+                <!-- Memory Card 1 -->
+                <div class="memory-card" onclick="openModal(1)">
+                    <div class="card-image">
+                        <img src="imagem/pg.jpeg" alt="Nosso Primeiro Encontro">
+                        <div class="card-overlay">
+                            <div class="heart-overlay">♥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-date">
+                            <span class="calendar-icon">📅</span>
+                            <span>09 de Setembro, 2019</span>
+                        </div>
+                        <h3>Onde tudo começou</h3>
+                        <p>O lugar em que tudo começou. Uma ajuda se tornou no amor da minha vida.</p>
+                    </div>
+                </div>
+
+                <!-- Memory Card 2 -->
+                <div class="memory-card" onclick="openModal(2)">
+                    <div class="card-image">
+                        <img src="imagem/paulista.jpg" alt="Nossa Primeira Viagem">
+                        <div class="card-overlay">
+                            <div class="heart-overlay">♥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-date">
+                            <span class="calendar-icon">📅</span>
+                            <span>Setembro, 2019</span>
+                        </div>
+                        <h3>Primeiro encontro marcante</h3>
+                        <p>Dia cheio de emoções e velas kkk o gelo foi dificil de ser quebrado mas foi mais um passo para nossa vida juntos.</p>
+                    </div>
+                </div>
+
+                <!-- Memory Card 3 -->
+                <div class="memory-card" onclick="openModal(3)">
+                    <div class="card-image">
+                        <img src="imagem/metro.jpg" alt="Cozinhando Juntos">
+                        <div class="card-overlay">
+                            <div class="heart-overlay">♥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-date">
+                            <span class="calendar-icon">📅</span>
+                            <span>Setembro, 2019</span>
+                        </div>
+                        <h3>Primeiro beijo</h3>
+                        <p>Ao fim de tarde onde veio o primeiro grande frio na barriga.</p>
+                    </div>
+                </div>
+
+                <!-- Memory Card 4 -->
+                <div class="memory-card" onclick="openModal(4)">
+                    <div class="card-image">
+                        <img src="imagem/pedidonamoro.jpeg" alt="Dançando na Chuva">
+                        <div class="card-overlay">
+                            <div class="heart-overlay">♥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-date">
+                            <span class="calendar-icon">📅</span>
+                            <span>19 de Outubro, 2019</span>
+                        </div>
+                        <h3>Pedido de namoro</h3>
+                        <p>Nosso primeiro sim, o dia em que oficializamos tudo kk.</p>
+                    </div>
+                </div>
+
+                <!-- Memory Card 5 -->
+                <div class="memory-card" onclick="openModal(5)">
+                    <div class="card-image">
+                        <img src="imagem/noivado.jpeg" alt="Pedido de noivado">
+                        <div class="card-overlay">
+                            <div class="heart-overlay">♥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-date">
+                            <span class="calendar-icon">📅</span>
+                            <span>15 de Abril, 2023</span>
+                        </div>
+                        <h3>Pedido de noivado</h3>
+                        <p>Um dia cheio de emoções e no fim o sim para nossa vida.</p>
+                    </div>
+                </div>
+
+                <!-- Memory Card 6 -->
+                <div class="memory-card" onclick="openModal(6)">
+                    <div class="card-image">
+                        <img src="imagem/historia.jpg" alt="Adotando Nossa Plantinha">
+                        <div class="card-overlay">
+                            <div class="heart-overlay">♥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-date">
+                            <span class="calendar-icon">📅</span>
+                            <span>19 de Outubro, 2025</span>
+                        </div>
+                        <h3>Chegando lá...</h3>
+                        <p>Sonhando acordado a cada decisão a cada dia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-hearts">
+                <span class="heart-icon">♥</span>
+                <span>Construindo mais e mais histórias</span>
+                <span class="heart-icon">♥</span>
+            </div>
+            
+            <p>📷 Aguardando para aumentar esses cards 📷</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title-section">
+                    <span class="heart-icon">♥</span>
+                    <h2 id="modal-title"></h2>
+                </div>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-date">
+                <span class="calendar-icon">📅</span>
+                <span id="modal-date"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-section">
+                    <img id="modal-image" src="" alt="">
+                </div>
+                <div class="modal-text-section">
+                    <h3>História</h3>
+                    <p id="modal-story"></p>
+                    <div class="modal-quote">
+                        <p id="modal-description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="music-player.js"></script>
+</body>
+</html>
