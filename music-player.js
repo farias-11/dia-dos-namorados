@@ -38,7 +38,7 @@ class MusicPlayer {
         `;
         
         const playerHTML = `
-            <div class="music-player" style="font-family: sans-serif; max-width: 350px; background:#f9f9f9; border-radius: 10px; padding: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <div class="music-player" style="font-family: sans-serif; max-width: 250px; background:#f9f9f9; border-radius: 10px; padding: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
                 <div class="player-content" style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
                     <button id="prevBtn" style="${buttonStyle}" title="Música Anterior">⏮</button>
                     <button class="play-pause-btn" id="playPauseBtn" style="${buttonStyle}" title="Play / Pause">
