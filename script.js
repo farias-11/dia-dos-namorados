@@ -19,13 +19,13 @@ Nas semanas conversamos sobre nossas fotos de criança(Genial), sonhos, medos, m
         date: "Setembro, 2019",
         image: "imagem/paulista.jpg",
         description: "Dia cheio de emoções e velas kkk o gelo foi dificil de ser quebrado mas foi mais um passo para nossa vida juntos.",
-        story: `Nossa primeira viagem juntos foi mais perfeita do que eu poderia imaginar. Você planejou cada detalhe com tanto carinho.
+        story: `Foi um dia bem maluco, começou com emoções ruins aqui de casa, ja fui com uma carga muito grande.
 
-Acordar com a vista das montanhas ao seu lado foi um dos momentos mais especiais da minha vida. Caminhamos pelas trilhas, descobrimos cachoeiras escondidas e fizemos piqueniques improvisados.
+Aquele dia eu tinha algumas coisas para fazer, tinha que ir cantar e outras coisas. No fim das contas não consegui me concentrar em nada, só ficava pensando como ia ser passar um tempo com você.
 
-À noite, ficávamos horas conversando sob as estrelas, planejando futuras aventuras e compartilhando nossos sonhos mais secretos.
+E por incrível que pareça foi legal, por mais que o pessoal deu uma quebrada no clima foi um dia bom, lembro de dar muitas risadas e de te conhecer melhor, saber mais sobre seus gostos.
 
-Foi nessa viagem que percebi que não importa onde estejamos, desde que seja ao seu lado, qualquer lugar se torna o paraíso.`
+Lembro que fiquei vendo você comer e te olhando pensando em tudo oq eu poderia falar, pensando como eu ia fazer para te conquistar, mas o resto é história...`
     },
     3: {
         title: "Primeiro beijo",
